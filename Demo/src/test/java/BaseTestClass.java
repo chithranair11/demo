@@ -13,7 +13,6 @@ public class BaseTestClass {
 		System.setProperty("webdriver.chrome.driver", chromepath);
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-	
 		
 		
 	}
